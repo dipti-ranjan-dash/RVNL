@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/red">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/white"
+        android:src="@drawable/img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/nameofuser"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:textColor="@color/white"
+        android:text="Rail Vikas Nigam Limited"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+</LinearLayout>
