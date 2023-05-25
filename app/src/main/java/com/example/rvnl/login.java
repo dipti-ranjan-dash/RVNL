@@ -88,6 +88,14 @@ public class login extends AppCompatActivity {
             return false;
 
         }
+        else if (!email.matches("gmail"))
+        {
+
+            Email.requestFocus();
+            Email.setError("Enter valid email");
+            return false;
+
+        }
         else if(password.length()<8)
         {
             Pass.requestFocus();
