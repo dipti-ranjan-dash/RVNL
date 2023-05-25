@@ -140,6 +140,7 @@
             android:layout_toRightOf="@+id/msg"
             android:fontFamily="sans-serif-medium"
             android:text="Sign In"
+            android:onClick="signin1"
             android:textColor="@color/black"
             android:textSize="20dp" />
 
